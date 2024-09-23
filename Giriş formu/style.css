@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+padding: 0;
+background: #131034;
+}
+.singup{
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background:url(1600w-1iOEJNrdkZc.webp) ;
+    position: absolute;
+    top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+overflow: hidden;
+border-radius: 10px;
+border: solid;
+}
+.singup h1 {
+    margin-top: 100px;
+    color: aliceblue;
+    font-size: 40px;
+
+}
+.singup input{
+    display: block;
+    width: 100%;
+    padding: 0 16px;
+    height: 45px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.singup a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.singup a:hover{
+  font-weight: bold;
+  cursor: pointer;  
+}
+.singup .buton{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background-color: #538fef;
+    color: whitesmoke;
+    border-radius: 50px;
+    cursor: pointer;
+    ransition: background-color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    display: block;
+
+
+
+
+}
